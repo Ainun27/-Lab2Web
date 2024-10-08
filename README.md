@@ -187,19 +187,19 @@ p {
 
 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
 
-h1 { ... }: Mengatur semua elemen "<h1>" di seluruh halaman web.
+2. h1 { ... }: Mengatur semua elemen "<h1>" di seluruh halaman web.
 #intro h1 { ... }: Mengatur hanya elemen "<h1>" yang berada di dalam elemen dengan id="intro", sehingga lebih spesifik.
 
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
-Ketika ada beberapa deklarasi CSS (internal, eksternal, dan inline) yang diterapkan pada elemen yang sama, prioritas (atau yang disebut CSS specificity) akan menentukan gaya mana yang diterapkan di browser.
+- Ketika ada beberapa deklarasi CSS (internal, eksternal, dan inline) yang diterapkan pada elemen yang sama, prioritas (atau yang disebut CSS specificity) akan menentukan gaya mana yang diterapkan di browser.
 
-Urutan prioritas dalam CSS adalah sebagai berikut:
+- Urutan prioritas dalam CSS adalah sebagai berikut:
 
-Inline CSS: Deklarasi CSS yang ditulis langsung di atribut elemen HTML memiliki prioritas paling tinggi.
-Internal CSS: Deklarasi yang diletakkan di dalam tag <style> di bagian <head> memiliki prioritas di bawah inline CSS.
-External CSS: Deklarasi CSS yang di-link melalui file eksternal memiliki prioritas yang paling rendah dibandingkan dua yang lainnya.
-Namun, spesifisitas selektor dan importance (!important) juga bisa memengaruhi prioritas.
+- Inline CSS: Deklarasi CSS yang ditulis langsung di atribut elemen HTML memiliki prioritas paling tinggi.
+- Internal CSS: Deklarasi yang diletakkan di dalam tag <style> di bagian <head> memiliki prioritas di bawah inline CSS.
+- External CSS: Deklarasi CSS yang di-link melalui file eksternal memiliki prioritas yang paling rendah dibandingkan dua yang lainnya.
+- Namun, spesifisitas selektor dan importance (!important) juga bisa memengaruhi prioritas.
 
 #### contoh
 
@@ -234,5 +234,45 @@ Namun, spesifisitas selektor dan importance (!important) juga bisa memengaruhi p
 
 #### Hasilnya
 
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20193845.png?raw=true)
+
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
+
+- Urutan Spesifisitas CSS:
+  
+-  Inline CSS (misalnya, style="...") memiliki prioritas tertinggi.
+- Selector ID (misalnya, #paragraf-1) memiliki prioritas lebih tinggi dibandingkan selector class.
+- Selector Class (misalnya, .text-paragraf) memiliki prioritas lebih tinggi dibandingkan selector elemen.
+- Selector Elemen (misalnya, p { ... }) memiliki prioritas terendah.
+
+#### contoh
+
+#### Di HTML
+
+```sh
+<p id="paragraf-1" class="text-paragraf">Ini adalah paragraf contoh.</p>
+```
+
+#### CSS dengan selector ID
+
+```sh
+#paragraf-1 {
+  color: blue;
+  font-size: 18px;
+}
+```
+
+#### CSS dengan selector Class
+
+```sh
+.text-paragraf {
+  color: red;
+  font-size: 16px;
+}
+```
+
+#### Hasilnya
+
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20195405.png?raw=true)
 
 
