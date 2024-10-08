@@ -190,7 +190,7 @@ p {
 - h1 { ... }: Mengatur semua elemen tag h1 di seluruh halaman web.
 - #intro h1 { ... }: Mengatur hanya elemen tag h1 yang berada di dalam elemen dengan id="intro", sehingga lebih spesifik.
 
- -Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
 - Ketika ada beberapa deklarasi CSS (internal, eksternal, dan inline) yang diterapkan pada elemen yang sama, prioritas (atau yang disebut CSS specificity) akan menentukan gaya mana yang diterapkan di browser.
 
