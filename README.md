@@ -84,7 +84,7 @@ dan CSS.</p>
 
 4. Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
    
-![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20182238.png?raw=true)
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20182638.png?raw=true)
 
 #### Membuat CSS Eksternal
 
