@@ -41,121 +41,198 @@ dan CSS.</p>
 ```
 
 1. Selanjutnya buka pada brwoser untuk melihat hasilnya.
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas2/Screenshot 2024-10-08 182343.png?raw=true)
-5. Kemudian atur atribut paragraf seperti berikut, dan amati perubahanya.
-
-```sh
-<p align=”center”>Kami sedang belajar HTML dasar, pada matakuliah Pemrograman
-Web di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama
-yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal
-tag-tag dasar HTML.</p>
-<p align=”right”>Ini merupakan sebuah paragraf yang terdiri dari beberapa
-kalimat yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat
-dengan menggunakan tag dasar html.</p>
-```
-6. Simpan kembali dan amati perubahannya dengan melakukan refresh pada web browser.
-Selanjutnya silakan ubah-ubah nilai atributnya (align => justify, left, right, dan center) untuk melihat perbedaan lainnya. 
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas/Screenshot%20(326).png?raw=true)
-
-#### Menambahkan Judul
-7. Seperti sudah dijelaskan pada materi bahwa judul memiliki 6 level yaitu mulai h1 sampai h6. Kemudian tambahkan judul h1 sebelum paragraf pertama dan tambahkan sub judul h2 sebelum paragraf kedua.
-```sh
-<h1>Belajar Dasar HTML</h1>
-    <p align=”center”>Kami sedang belajar HTML dasar, pada matakuliah Pemrograman Web di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
-
-<h2>Paragraf pada HTML</h2>
-    <p align=”right”>Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan tag dasar html.</p>
-```
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas/Screenshot%20(327).png?raw=true)
-
-#### Memformat Text
-8.Lakukan pemformatan teks yang ada pada paragraf yang sudah ada sebelumnya, mengacu kepada penjelasan materi pemformatan teks, sehingga tampilannya seperti berikut.
-
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas/Screenshot%20(328).png?raw=true)
-
-```sh
-<h1>Belajar Dasar HTML</h1>
-    <p align="justify">Kami sedang belajar <span style="background-color: yellow;">HTML Dasar</span>, pada matakuliah <b>Perograman Web</b>
-    di Prodi <i>Teknik  Informatika</i> <u>Universitas Pelita Bangsa.</u> Pelajaran pertama
-    yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal
-    tag-tag dasar HTML.</p>
-
-    <h2>Paragraf pada HTML</h2>
-    <p align="left">Ini merupakan sebuah paragraf yang terdiri dari beberapa
-    kalimat yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat
-    dengan menggunakan tag dasar html.</p>
-```
-#### Membuat Halaman 2
-```sh
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab1 Halaman2</title>
-</head>
-<body>
-    <h1>Belajar Dasar HTML</h1>
-    <p align="justify">Kami sedang belajar <span style="background-color: yellow;">HTML Dasar</span>, pada matakuliah <b>Perograman Web</b>
-    di Prodi <i>Teknik  Informatika</i> <u>Universitas Pelita Bangsa.</u> Pelajaran pertama
-    yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal
-    tag-tag dasar HTML.</p>
-
-    
-    <h2>Paragraf pada HTML</h2>
-    <p align="left">Ini merupakan sebuah paragraf yang terdiri dari beberapa
-    kalimat yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat
-    dengan menggunakan tag dasar html.</p>
-
-    <h3>Menambahkan Gambar</h3>
-    <img src="Logo_upb.png" title="Logo Univeritas Pelita Bangsa" width="200px">
-    
-</body>
-</html>
-```
-
-#### Menyisipkan Gambar
-9. Untuk menyisipkan gmbar, siapkan gambar yang akan disisipkan pada halaman web, kemudian simpan file gambar tersebut satu folder dengan file dokumen html. Atau bisa juga menyisipkan gambar dari website external.
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas/Screenshot%202024-09-30%20190944.png?raw=true)
-10. Kemudian tambahkan tag img setelah paragraf yang kedua, dengan menambahkan heading 3 sebelumnya.
-
-```sh
-<h3>Menambahkan Gambar</h3>
-    <img src="Logo_upb.png" title="Logo Univeritas Pelita Bangsa">
-```
-11. Simpan perubahannya, kemudian refresh browser.
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas/Screenshot%20(332).png?raw=true)
-12. Gambar akan ditampilkan apa adanya sesuai dengan ukuran aslinya. Untuk mengatur ukuran gambar, dapat digunakan atribut witdh dan height dengan nilai integer yang disesuaikan.
-```sh
-<h3>Menambahkan Gambar</h3>
-    <img src="Logo_upb.png" title="Logo Univeritas Pelita Bangsa" width="200px">
-```
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas/Screenshot%20(330).png?raw=true)
-#### Menambahkan Hyper Link
-13. Tambahkan hyperlink pada dokumen sebelum heading 1 seperti berikut.
-
-```sh
-<nav>
-    <a href="lab1_tag_dasar.html">Dasar HTML</a>
-    <a href="lab1_halaman2.html">Halaman 2</a>
-    <a href="http://www.google.com">Halaman Web Eksternal Google</a>
-    </nav>
-    <hr>
-```
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas/Screenshot%20(331).png?raw=true)
-
-## Pertanyaan 
-1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
-2. Apa perbedaan dari tag p dengan tag br, berikan penjelasannya!
-3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya!
-4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
-5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank,_self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
-
-## Jawaban
-1. Saya tidak mengalami eror ataupun salah dalam penulisan tag.
-2. tag p : Membuat paragraf dengan spasi di atas dan di bawah teks. tag br : Memulai baris baru tanpa menambah spasi.
-3. alt: Ditampilkan saat gambar gagal dimuat atau untuk pembaca layar. title: Ditampilkan sebagai tooltip ketika kursor diarahkan ke gambar.
-4. Agar gambar tetap proporsional, cukup isi satu dari atribut width atau height, sehingga browser otomatis menyesuaikan dimensi lainnya berdasarkan rasio asli gambar.
-5. Setiap nilai atribut target pada tag <a> memiliki fungsi yang berbeda untuk mengontrol bagaimana link dibuka. _blank: Tab/jendela baru. _self: Tab/jendela saat ini. _top: Jendela penuh, keluar dari semua frame. _parent: Frame induk dari frame saat ini.
    
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20182343.png?raw=true)
+
+#### Mendeklarasikan CSS Internal
+
+```sh
+<head>
+ <title>CSS Dasar</title>
+ <style>
+ body {
+ font-family:'Open Sans', sans-serif;
+ }
+ header {
+ min-height: 80px;
+ border-bottom:1px solid #77CCEF;
+ }
+ h1 {
+ font-size: 24px;
+ color: #0F189F;
+ text-align: center;
+ padding: 20px 10px;
+ }
+ h1 i {
+ color:#6d6a6b;
+ }
+ </style>
+</head>
+```
+
+2. Selanjutnya simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya.
+   
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20182508.png?raw=true)
+
+#### Menambahkan Inline CSS
+
+3. Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
+
+```sh
+<p style="text-align: center; color: #ccd8e4;">
+```
+
+4. Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
+   
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20182238.png?raw=true)
+
+#### Membuat CSS Eksternal
+
+5. Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
+
+```sh
+nav {
+background: #20A759;
+color:#fff;
+padding: 10px;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+padding:10px 20px;
+}
+nav .active,
+nav a:hover {
+background: #0B6B3A;
+}
+```
+
+6. Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
+
+```sh
+<head>
+ <!-- menyisipkan css eksternal -->
+ <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+</head>
+```
+
+7. Selanjutnya refresh kembali browser untuk melihat perubahannya.
+
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20183144.png?raw=true)
+
+#### Menambahkan CSS Selector
+
+8. Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file
+style_eksternal.css, tambahkan kode berikut.
+
+```sh
+/* ID Selector */
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 10px;
+}
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+}
+/* Class Selector */
+.button {
+ padding: 15px 20px;
+background: #bebcbd;
+color: #fff;
+display: inline-block;
+margin: 10px;
+text-decoration: none;
+}
+.btn-primary {
+background: #E42A42;
+}
+```
+
+9. Kemudian simpan kembali dan refresh browser untuk melihat perubahannya.
+
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20183256.png?raw=true)
+  
+## Pertanyaan Dan Tugas
+
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+
+#### Code html
+
+```sh
+<div class="artikel1">
+    <p>Hallo, saya ainun dwi permana. mahasiswa universitas pelita bangsa. 
+        senang bisa mendapatkan kesempatan mempelajasi css</p>
+</div>
+```
+
+#### Code css
+
+```sh
+.artikel1 {
+        background-color: antiquewhite;
+    }
+
+p {
+        border: 2px solid black;
+    }
+```
+
+#### hasil 
+
+![alt text](https://github.com/Ainun27/Lab2Web/blob/main/tugas2/Screenshot%202024-10-08%20184834.png?raw=true)
+
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+
+h1 { ... }: Mengatur semua elemen "<h1>" di seluruh halaman web.
+#intro h1 { ... }: Mengatur hanya elemen "<h1>" yang berada di dalam elemen dengan id="intro", sehingga lebih spesifik.
+
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+Ketika ada beberapa deklarasi CSS (internal, eksternal, dan inline) yang diterapkan pada elemen yang sama, prioritas (atau yang disebut CSS specificity) akan menentukan gaya mana yang diterapkan di browser.
+
+Urutan prioritas dalam CSS adalah sebagai berikut:
+
+Inline CSS: Deklarasi CSS yang ditulis langsung di atribut elemen HTML memiliki prioritas paling tinggi.
+Internal CSS: Deklarasi yang diletakkan di dalam tag <style> di bagian <head> memiliki prioritas di bawah inline CSS.
+External CSS: Deklarasi CSS yang di-link melalui file eksternal memiliki prioritas yang paling rendah dibandingkan dua yang lainnya.
+Namun, spesifisitas selektor dan importance (!important) juga bisa memengaruhi prioritas.
+
+#### contoh
+
+#### Css Eksternal 
+
+```sh
+.artikel1 {
+        background-color: antiquewhite;
+    }
+```
+
+#### Css Internal
+
+```sh
+<head>
+  <style>
+    .artikel1{
+            background-color: #77CCEF;
+        }
+  </style>
+</head>
+```
+
+#### Inline Css
+
+```sh
+<div class="artikel1" style="background-color: bisque;">
+    <p>Hallo, saya ainun dwi permana. mahasiswa universitas pelita bangsa. 
+        senang bisa mendapatkan kesempatan mempelajasi css</p>
+</div>
+```
+
+#### Hasilnya
+
+
 
