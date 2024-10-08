@@ -41,7 +41,7 @@ dan CSS.</p>
 ```
 
 1. Selanjutnya buka pada brwoser untuk melihat hasilnya.
-![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas/Screenshot%20(325).png?raw=true)
+![alt text](https://github.com/Ainun27/Lab1Web/blob/main/tugas2/Screenshot 2024-10-08 182343.png?raw=true)
 5. Kemudian atur atribut paragraf seperti berikut, dan amati perubahanya.
 
 ```sh
